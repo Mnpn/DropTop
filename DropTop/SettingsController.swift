@@ -50,6 +50,6 @@ class SettingsController: UIViewController {
     //override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        //getnl.setValue(UserDefaults.standard.float(forKey: "getnl"), animated: false)
+        // getnl.setValue(UserDefaults.standard.float(forKey: "getnl"), animated: false)
     //}
 }
