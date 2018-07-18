@@ -107,7 +107,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             let group = SKAction.group([sound, volume, pitch])
             note.run(group)*/
             DispatchQueue.global().async {
-                self.playNote(name: "marimba", type: "m4a", volume: Float(0.0), pitch: Float(circle.position.y))
+                self.playNote(name: "marimba", type: "m4a", volume: Float((circle.physicsBody?.velocity.dy)!+(circle.physicsBody?.velocity.dx)!/2)/100, pitch: Float(circle.position.y))
             }
         }
     }
@@ -119,9 +119,13 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryAmbient)
             try AVAudioSession.sharedInstance().setActive(true)
             let note = try AVAudioPlayer(contentsOf: url)
+            note.volume = volume
             arrayOfPlayers.append(note)
             arrayOfPlayers.last?.prepareToPlay()
+            //note.prepareToPlay()
+            //print(arrayOfPlayers)
             arrayOfPlayers.last?.play()
+            note.play()
         } catch {
             // We couldn't play the sound :^(
             print("Failed to play the sound!")

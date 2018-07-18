@@ -44,6 +44,10 @@ class SettingsController: UIViewController {
         ACLB.isOn = UserDefaults.standard.bool(forKey: "aclb")
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
