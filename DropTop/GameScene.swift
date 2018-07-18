@@ -101,14 +101,14 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     func collisionBetween(circle: SKNode, line: SKNode) {
         if (circle.physicsBody?.velocity.dy)! > CGFloat(20) || (circle.physicsBody?.velocity.dy)! < CGFloat(-20) &&
             (circle.physicsBody?.velocity.dx)! > CGFloat(100) || (circle.physicsBody?.velocity.dx)! < CGFloat(-100) {
-            /*let sound = SKAction.playSoundFileNamed("marimba.m4a", waitForCompletion: false)
+            let sound = SKAction.playSoundFileNamed("marimba.m4a", waitForCompletion: false)
             let volume = SKAction.changeVolume(to: Float(0.0), duration: 0)
             let pitch = SKAction.changeObstruction(to: Float(circle.position.y), duration: 1)
             let group = SKAction.group([sound, volume, pitch])
-            note.run(group)*/
-            DispatchQueue.global().async {
+            circle.run(group)
+            /*DispatchQueue.global().async {
                 self.playNote(name: "marimba", type: "m4a", volume: Float((circle.physicsBody?.velocity.dy)!+(circle.physicsBody?.velocity.dx)!/2)/100, pitch: Float(circle.position.y))
-            }
+            }*/
         }
     }
     
