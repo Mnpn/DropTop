@@ -1,0 +1,6 @@
+framework module Pods_DropTop {
+  umbrella header "Pods-DropTop-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SubtleVolume (0.5.2)
+
+DEPENDENCIES:
+  - SubtleVolume
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SubtleVolume
+
+SPEC CHECKSUMS:
+  SubtleVolume: 605eef49ca714af247c0a8efae63e86b3530480b
+
+PODFILE CHECKSUM: 703148853d8fa84aec061e2fde5917f766098c8a
+
+COCOAPODS: 1.5.3

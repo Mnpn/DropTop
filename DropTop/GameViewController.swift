@@ -9,10 +9,13 @@
 import UIKit
 import SpriteKit
 import GameplayKit
+import SubtleVolume
 
 class GameViewController: UIViewController {
     // Create a UIScreenEdgePanGestureRecognizer.
     var screenEdgeRecognizer: UIScreenEdgePanGestureRecognizer!
+    
+    let volume = SubtleVolume(style: .plain)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,6 +36,18 @@ class GameViewController: UIViewController {
             view.showsFPS = true
             view.showsNodeCount = true
         }
+    }
+    
+    override func viewDidLayoutSubviews() {
+        var volumeOrigin: CGFloat = UIApplication.shared.statusBarFrame.height
+        if #available(iOS 11.0, *) {
+            volumeOrigin = view.safeAreaInsets.top
+        }
+        volume.frame = CGRect(x: 0, y: volumeOrigin, width: UIScreen.main.bounds.width, height: 4)
+        volume.barTintColor = .white
+        volume.barBackgroundColor = volume.barTintColor.withAlphaComponent(0.3)
+        volume.animation = .fadeIn
+        view.addSubview(volume)
     }
     
     override var shouldAutorotate: Bool {
