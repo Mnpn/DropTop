@@ -10,8 +10,7 @@
 		1706512B20E6DAEC00BA1158 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1706512A20E6DAEC00BA1158 /* Settings.bundle */; };
 		1706512D20E6DB2B00BA1158 /* SettingsBundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1706512C20E6DB2B00BA1158 /* SettingsBundleHelper.swift */; };
 		170A2E8620E2B38C000A0F6A /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170A2E8520E2B38C000A0F6A /* SettingsController.swift */; };
-		174F6FBB20E22F2C0088223F /* marimba.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 174F6FBA20E22F2C0088223F /* marimba.mp3 */; };
-		1762E9C720E3DE62002802D6 /* marimba.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1762E9C620E3DE62002802D6 /* marimba.m4a */; };
+		1762E9C720E3DE62002802D6 /* marimba.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1762E9C620E3DE62002802D6 /* marimba.mp3 */; };
 		17B0245820B0AC9900AACBB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0245720B0AC9900AACBB5 /* AppDelegate.swift */; };
 		17B0245A20B0AC9900AACBB5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 17B0245920B0AC9900AACBB5 /* GameScene.sks */; };
 		17B0245C20B0AC9900AACBB5 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 17B0245B20B0AC9900AACBB5 /* Actions.sks */; };
@@ -23,9 +22,6 @@
 		17B0247320B0AC9C00AACBB5 /* DropTopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0247220B0AC9C00AACBB5 /* DropTopTests.swift */; };
 		17B0247E20B0AC9C00AACBB5 /* DropTopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0247D20B0AC9C00AACBB5 /* DropTopUITests.swift */; };
 		17B0248C20B0BE8900AACBB5 /* Dots.sks in Resources */ = {isa = PBXBuildFile; fileRef = 17B0248B20B0BE8900AACBB5 /* Dots.sks */; };
-		284BF5E8BB4613CC32E78981 /* Pods_DropTopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2DC261BA6229494785D002 /* Pods_DropTopUITests.framework */; };
-		2ED73E621C526D53007B4F2E /* Pods_DropTop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC6C30107EFB739037E4723 /* Pods_DropTop.framework */; };
-		EA95461A627FD5580827FF4E /* Pods_DropTopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE9887C973D86CFDC3D7530 /* Pods_DropTopTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,13 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		030855D2E9E20F9CDB34B98E /* Pods-DropTopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropTopUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DropTopUITests/Pods-DropTopUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		09EF3C6D8AA7B845DDABEF64 /* Pods-DropTopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropTopUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DropTopUITests/Pods-DropTopUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1706512A20E6DAEC00BA1158 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		1706512C20E6DB2B00BA1158 /* SettingsBundleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsBundleHelper.swift; sourceTree = "<group>"; };
 		170A2E8520E2B38C000A0F6A /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
-		174F6FBA20E22F2C0088223F /* marimba.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = marimba.mp3; path = ../../../../Downloads/marimba.mp3; sourceTree = "<group>"; };
-		1762E9C620E3DE62002802D6 /* marimba.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = marimba.m4a; path = ../../../../Music/marimba.m4a; sourceTree = "<group>"; };
+		1762E9C620E3DE62002802D6 /* marimba.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = marimba.mp3; path = DropTop/marimba.mp3; sourceTree = "<group>"; };
 		17B0245420B0AC9900AACBB5 /* DropTop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropTop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B0245720B0AC9900AACBB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17B0245920B0AC9900AACBB5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -71,13 +64,6 @@
 		17B0247F20B0AC9C00AACBB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17B0248B20B0BE8900AACBB5 /* Dots.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Dots.sks; sourceTree = "<group>"; };
 		17FC7B2620E160C200EFA0EA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		4BE9887C973D86CFDC3D7530 /* Pods_DropTopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DropTopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D2DC261BA6229494785D002 /* Pods_DropTopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DropTopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EBB03D0DEFEFEBC92C18E50 /* Pods-DropTopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropTopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DropTopTests/Pods-DropTopTests.release.xcconfig"; sourceTree = "<group>"; };
-		7D66B4E6E216B27C0CB1B507 /* Pods-DropTop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropTop.release.xcconfig"; path = "Pods/Target Support Files/Pods-DropTop/Pods-DropTop.release.xcconfig"; sourceTree = "<group>"; };
-		BDC6C30107EFB739037E4723 /* Pods_DropTop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DropTop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7F5DFD3DF8E822866FD53AB /* Pods-DropTop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropTop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DropTop/Pods-DropTop.debug.xcconfig"; sourceTree = "<group>"; };
-		FFE033726E9A8953FE9461A5 /* Pods-DropTopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropTopTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DropTopTests/Pods-DropTopTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +71,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ED73E621C526D53007B4F2E /* Pods_DropTop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +78,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA95461A627FD5580827FF4E /* Pods_DropTopTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +85,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				284BF5E8BB4613CC32E78981 /* Pods_DropTopUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,14 +94,12 @@
 		17B0244B20B0AC9900AACBB5 = {
 			isa = PBXGroup;
 			children = (
-				1762E9C620E3DE62002802D6 /* marimba.m4a */,
-				174F6FBA20E22F2C0088223F /* marimba.mp3 */,
+				1762E9C620E3DE62002802D6 /* marimba.mp3 */,
 				17B0245620B0AC9900AACBB5 /* DropTop */,
 				17B0247120B0AC9C00AACBB5 /* DropTopTests */,
 				17B0247C20B0AC9C00AACBB5 /* DropTopUITests */,
 				17B0245520B0AC9900AACBB5 /* Products */,
 				17FC7B2520E160C200EFA0EA /* Frameworks */,
-				F5D34E1BB5DF7B7F23921894 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,24 +155,8 @@
 			isa = PBXGroup;
 			children = (
 				17FC7B2620E160C200EFA0EA /* AVFoundation.framework */,
-				BDC6C30107EFB739037E4723 /* Pods_DropTop.framework */,
-				4BE9887C973D86CFDC3D7530 /* Pods_DropTopTests.framework */,
-				6D2DC261BA6229494785D002 /* Pods_DropTopUITests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F5D34E1BB5DF7B7F23921894 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F7F5DFD3DF8E822866FD53AB /* Pods-DropTop.debug.xcconfig */,
-				7D66B4E6E216B27C0CB1B507 /* Pods-DropTop.release.xcconfig */,
-				FFE033726E9A8953FE9461A5 /* Pods-DropTopTests.debug.xcconfig */,
-				6EBB03D0DEFEFEBC92C18E50 /* Pods-DropTopTests.release.xcconfig */,
-				030855D2E9E20F9CDB34B98E /* Pods-DropTopUITests.debug.xcconfig */,
-				09EF3C6D8AA7B845DDABEF64 /* Pods-DropTopUITests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,12 +166,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17B0248220B0AC9C00AACBB5 /* Build configuration list for PBXNativeTarget "DropTop" */;
 			buildPhases = (
-				72D6D3F06850E44ED8DC7178 /* [CP] Check Pods Manifest.lock */,
 				17B0245020B0AC9900AACBB5 /* Sources */,
 				17B0245120B0AC9900AACBB5 /* Frameworks */,
 				17B0245220B0AC9900AACBB5 /* Resources */,
 				179F197920E275ED00253AF8 /* ShellScript */,
-				08036EF0F5ADD8F19EE59516 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -304,10 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				17B0246320B0AC9900AACBB5 /* Main.storyboard in Resources */,
-				174F6FBB20E22F2C0088223F /* marimba.mp3 in Resources */,
 				17B0245A20B0AC9900AACBB5 /* GameScene.sks in Resources */,
 				17B0246520B0AC9B00AACBB5 /* Assets.xcassets in Resources */,
-				1762E9C720E3DE62002802D6 /* marimba.m4a in Resources */,
+				1762E9C720E3DE62002802D6 /* marimba.mp3 in Resources */,
 				17B0248C20B0BE8900AACBB5 /* Dots.sks in Resources */,
 				17B0246820B0AC9C00AACBB5 /* LaunchScreen.storyboard in Resources */,
 				1706512B20E6DAEC00BA1158 /* Settings.bundle in Resources */,
@@ -332,24 +294,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		08036EF0F5ADD8F19EE59516 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DropTop/Pods-DropTop-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SubtleVolume/SubtleVolume.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SubtleVolume.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DropTop/Pods-DropTop-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		179F197920E275ED00253AF8 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -362,24 +306,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Increase build numbers automatically.\nshouldIncrement=true\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\n\nif [ \"$shouldIncrement\" = true ]; then\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\nfi";
-		};
-		72D6D3F06850E44ED8DC7178 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DropTop-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
 		};
 		AE45D20F8E3BEAE51B86636C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -599,7 +525,6 @@
 		};
 		17B0248320B0AC9C00AACBB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7F5DFD3DF8E822866FD53AB /* Pods-DropTop.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -622,7 +547,6 @@
 		};
 		17B0248420B0AC9C00AACBB5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D66B4E6E216B27C0CB1B507 /* Pods-DropTop.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -645,7 +569,6 @@
 		};
 		17B0248620B0AC9C00AACBB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFE033726E9A8953FE9461A5 /* Pods-DropTopTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -667,7 +590,6 @@
 		};
 		17B0248720B0AC9C00AACBB5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EBB03D0DEFEFEBC92C18E50 /* Pods-DropTopTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -689,7 +611,6 @@
 		};
 		17B0248920B0AC9C00AACBB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 030855D2E9E20F9CDB34B98E /* Pods-DropTopUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -710,7 +631,6 @@
 		};
 		17B0248A20B0AC9C00AACBB5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09EF3C6D8AA7B845DDABEF64 /* Pods-DropTopUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
